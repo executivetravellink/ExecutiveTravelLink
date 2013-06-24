@@ -1,0 +1,275 @@
+.SerachForm {
+	font-family:Arial, Helvetica, sans-serif!important;
+	font-size:14px!important;
+	margin-bottom:-10px;
+/*	width: 865px;
+*/}
+form {
+	width:auto;
+	height: auto;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	padding-top: 5px;
+}
+.ui-state-active2{
+	background: #cdcdcd;
+}
+.SerachForm h1 {
+	background:#1e9deb;
+	font-size:16px;
+	color:#fff;
+	margin:0;
+	padding:5px 0 5px 10px;
+}
+label {
+	display:block;
+	color:#000 !important;
+	margin: 5px 0 5px 0;
+}
+.FormRow {
+	overflow:hidden;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+.FormColumn {
+	float:left;
+	width: 224px;
+}
+.FormColumn2 {
+	/*margin-left:8px;*/
+}
+.SelectSmall,.InputSmall {
+	/*width:50px;*/
+}
+.SelectSmall{
+	width: 100px;		
+}
+.InputSmall {
+	height:18px!important;
+	width: 30px;
+	z-index: 20000;
+	margin-left: -10px;
+	margin-right: 20px;
+	padding-left: 5px;
+}
+input.calender {
+	background:url(../img/calender-icon.png) 5px center no-repeat #fff;
+	padding-left: 25px;
+	padding-top: 5px;
+	width: 160px;
+	margin-right: 100px;
+}
+#Table1{
+	padding: 0 10px 0 10px;	
+	width: 466px !important;
+	overflow: hidden;
+}
+td{
+	overflow: hidden;	
+}
+.SearchBtn {
+	height:35px;
+	border:0;
+	color:#fff;
+	cursor:pointer;
+	font-weight:700;
+	font-size:16px;
+	margin-top:10px;
+	background: #00bf06; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00bf06 0%, #5a9949 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00bf06), color-stop(100%,#5a9949)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00bf06 0%,#5a9949 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00bf06 0%,#5a9949 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00bf06 0%,#5a9949 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00bf06 0%,#5a9949 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bf06', endColorstr='#5a9949',GradientType=0 ); /* IE6-9 */
+	margin-bottom:10px;
+	width: 232px;
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+#ui-datepicker-div {
+	display:none;
+	background: #fff !important;
+}
+.FormColumn3 {
+	width:50px;
+	font-size:12px;
+	font-weight:700;
+	color:#fff;
+}
+.FormColumn4 {
+	float:left;
+	margin-right:10px;
+}
+
+.FormColumn5 {
+	/*width:230px;*/
+	/*float:left;*/
+	/*z-index: 1000;*/
+	margin-left:18px;
+}
+.FormTabs {
+	overflow:hidden;
+	margin-bottom:-10px;
+}
+.FormTabs p {
+	line-height:32px;
+	color:#fff;
+	width: 100%;
+	/*padding:0 0 0 5px!important;*/
+	/*text-indent: -1000px;*/
+	padding: 5px 0 5px 0;
+	text-align: center;
+	/*background: url("../images/airplane.png") center no-repeat;*/
+}
+.FormTabs img{
+	margin-left: 25px;	
+	margin-bottom: -10px;
+	margin-top: 5px;
+}
+.ui-state-active{
+	background: #d2d2d2 !important;	
+	color: #125e8a !important;
+}	
+.FormTabs .Activities a{
+	/*margin-top: 20px;*/
+}	
+.FormTabs .Activities a p{
+	/*background: url("../images/airplane.png") center no-repeat;*/
+}
+.FormTabs ul {
+	overflow:hidden;
+	list-style:none;
+	margin:0 auto;
+	padding:0;
+}
+.FormTabs ul li {
+	width: 115px;
+	/*text-align:center;*/
+	font-weight:700;
+	float: left;
+	margin-right: 2px;
+-webkit-border-radius: 3px 3px 0px 0px;
+        border-radius: 3px 3px 0px 0px;}
+.color {
+	background: #125e8a; /* Old browsers */
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.hey {
+	float:left;
+	margin-bottom:-10px;
+}
+.FormTabs ul li.Selected {
+	background:#fff;
+	color:#0074d1!important;
+}
+.Form_Sep {
+	height:1px;
+	background:#1e9deb;
+	margin:10px 50px 0 45px;
+}
+.ChooseActivity label {
+	display:inline;
+	font-weight: 400;
+	font-size:14px !important;
+}
+.ChooseActivity {
+	overflow:hidden;
+	width:400px;
+	margin:0!important;
+	padding:0;
+}
+.ChooseActivity li{
+	float: left;	
+}	
+.floater{
+	/*position: relative;
+	top: -100px;*/
+	margin-left: 145px;
+	margin-top: -135px;
+}
+.floater,.firstroom{
+	float: left;	
+}
+.firstroom{
+	margin-left: 30px;	
+}
+/*.destination{
+	width: 340px;	
+}*/
+.activity>.FormRow>.ChooseActivity {
+	/*width:120px;*/
+}
+.clear {
+	clear:both;
+}
+.noRooms {
+	float:left;
+	width:150px;
+}
+.ChooseActivity li {
+	list-style:none;
+	width:100px!important;
+	text-align:left!important;
+	border:none!important;
+	font-size:12px;
+	line-height:26px;
+	padding:0;
+}
+.nomargin {
+	line-height:22px;
+	margin:0;
+}
+.AgesLabel {
+	width:55px;
+	margin-left:20px;
+}
+.ui-tabs .ui-tabs-panel {
+	background: rgba(210, 210, 210, .9);
+	padding:0;
+}
+.ui-tabs-selected a {
+	color:#125e8a !important;
+}
+.ui-tabs .ui-state-default a p {
+	font-weight:700;
+}
+.ui-autocomplete {
+	max-height:218px;
+	overflow:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff;
+	font-size: 13px !important;
+	-webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+	color: #616161 !important;
+	width: 360px;
+}
+.activated{
+	background: #fff !important;	
+	color: #125e8a !important;
+}
+.InputFull {
+	width:390px;
+	background: #fff url("../img/grey-marker.png") no-repeat scroll 3px 7px;
+	padding-left: 50px;
+	padding-right: 30px !important;
+}
+.InputMed,.SelectMed {
+	width:100px;
+}
+.SelectMed{
+	/*width:120px;*/
+	overflow: hidden;	
+}
+.activity,.rooms {
+	float:left;
+}
+.people .FormRow{
+	width: 28%;	
+	float: left;
+}
