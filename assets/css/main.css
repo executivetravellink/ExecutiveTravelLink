@@ -1933,13 +1933,12 @@ ul.ft-menu > li.ft-field > span.ft-label:first-child{
 	color: #616161;	
 	padding: 5px 0 6px 10px;
 	font-size: 1.2em;
-	background: #fff;
 	margin: 0;
 /*	-webkit-box-shadow:  0px 0px 2px 1px rgba(97, 97, 97, 0.3);
     box-shadow:  0px 0px 2px 1px rgba(97, 97, 97, 0.3);
 */}
 .cruisedeals>article>.departure>p:hover{
-	background: #f4f4f4;	
+	background: #e4e4e4;	
 /*	-webkit-box-shadow:  0px 0px 2px 1px rgba(97, 97, 97, 0.3);
     box-shadow:  0px 0px 2px 1px rgba(97, 97, 97, 0.3);
 */}
