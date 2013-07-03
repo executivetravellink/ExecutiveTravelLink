@@ -11,7 +11,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .clear{
 	clear:both;	
 }
-body{
+body{ 
 	background: #fff;	
 }
 a{
@@ -1193,11 +1193,12 @@ ul.ft-menu > li.ft-field > span.ft-label:first-child{
 	margin-top: 10px;
 	font-weight: 700;
 	color: #125e8a;
+	font-weight: normal; 
 }
 /*#modal>*/#modal-content>p:last-child{
 	margin-top: 20px;
-	margin-bottom: 10px;
 	font-weight: 700;
+	font-weight: normal;
 }
 .yournow{
 	margin-bottom: 10px;	
@@ -2092,9 +2093,9 @@ select:focus{
 	display: inline-block;
  }
  .blog-sidebar h2{
-	 font-size: 2em;
-	 color: #616161;
-	 padding: 0 0 5px 10px;
+	font-size: 2em;
+	color: #616161;
+	padding: 0 0 5px 10px;
  }
  .blog-sidebar>p>a{
 	color: #616161; 
@@ -2102,12 +2103,12 @@ select:focus{
 	padding: 10px 0 5px 10px;
  }
  time{
-	 font-style:italic; 
-	 font-size: 1.2em;
-	 color: #616161;
-	 margin-bottom: 5px;
-	 margin-top: 10px;
-	 display: inline-block;
+	font-style:italic; 
+	font-size: 1.2em;
+	color: #616161;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	display: inline-block;
  }
  .executivetwitters{
 	font-size: 2em; 
@@ -2119,14 +2120,14 @@ select:focus{
 	width: 100%;
 	height: 659px; 
 	padding-top: 120px !important;
-		 font-family:Arial, 'Helvetica Neue', sans-serif;
-		  text-transform:capitalize;
+	font-family:Arial, 'Helvetica Neue', sans-serif;
+	text-transform:capitalize;
  }
  #live-chat>h1{
 	color: #fff; 
-	 font-weight: bolder;
-	 text-align: center;
-	 text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
  }
   #live-chat>h2{
 		text-align: center;
@@ -2138,18 +2139,24 @@ select:focus{
  }
  .addthis_floating_style{
  	background: none !important;
- 	margin-left: 356px;
-	margin-top: 42px;
+ 	z-index: 1000001;
+ 	margin-left: -55px;
  }
  .fb-like{
- 	/*float: left !important;
+ 	float: left !important;
 	position: absolute !important;
 	top: 22px;
 	right: 391px; 
 	height: 20px;
-    overflow: hidden;*/
+    overflow: hidden;
     margin-left: 450px;
  }
 .fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
 	display: none !important;
+}
+.-cx-PRIVATE-pluginPostFlyout__fullbutton{
+	display: none !important;
+}
+.at-quickshare{
+	z-index:100000001 !important;
 }
